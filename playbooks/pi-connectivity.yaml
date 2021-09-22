@@ -1,0 +1,6 @@
+---
+- name: Setting up different network tools
+  hosts: raspberry
+  roles:
+    - docker
+
